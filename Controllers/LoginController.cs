@@ -15,7 +15,7 @@ public class LoginController : Controller
     }
 
     // GET: Login
-    public IActionResult Login()
+    public IActionResult Authenticate()
     {
         return View();
     }
@@ -25,9 +25,9 @@ public class LoginController : Controller
     // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
     [HttpPost]
     [ValidateAntiForgeryToken]
-    public async Task<IActionResult> Authenticate([Bind("Login,Password")] User user)
+    public async Task<IActionResult> Authenticate([Bind("Login,Password, RoleId")] User user)
     {
-        var existingUser = await _context.User.Where(x => x.Login == user.Login && x.Password == ).FirstOrDefaultAsync();
+        var existingUser = await _context.User.Where(x => x.Login == user.Login && x.Password == user.Password).FirstOrDefaultAsync();
         if (existingUser == null)
         {
             return NotFound(new { message = "Usuário ou senha inválidos" });
@@ -37,12 +37,6 @@ public class LoginController : Controller
 
         user.Password = "";
 
-        if (ModelState.IsValid)
-        {
-            _context.Add(user);
-            await _context.SaveChangesAsync();
-            return RedirectToAction(nameof(Index));
-        }
-        return View(user);
+        return RedirectToAction("../Home/Index");
     }
 }

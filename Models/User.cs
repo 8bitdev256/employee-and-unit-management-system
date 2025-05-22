@@ -1,4 +1,3 @@
-using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 
 namespace employee_and_unit_management_system.Models;
@@ -15,4 +14,6 @@ public class User
     public bool Active { get; set; }
 
     public required int RoleId { get; set; }
+
+    public Role? Role { get; set; }
 }

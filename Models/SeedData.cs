@@ -10,21 +10,38 @@ public static class SeedData
         using var context = new DataContext(
             serviceProvider.GetRequiredService<
                 DbContextOptions<DataContext>>());
-                
-        if (context.User.Any())
+
+        if (!context.Role.Any())
         {
-            return;   // DB has been seeded
+            context.Role.AddRange(
+                new Role
+                {
+                    Id = 1,
+                    Description = "Administrator",
+                },
+
+                new Role
+                {
+                    Id = 2,
+                    Description = "Default",
+                }
+            );
         }
 
-        context.User.AddRange(
-            new User
-            {
-                Login = "Admin",
-                Password = "Admin",
-                Active = true,
-                RoleId = 1,
-            }
-        );
+
+        if (!context.User.Any())
+        {
+            context.User.Add(
+                new User
+                {
+                    Login = "Admin",
+                    Password = "Admin",
+                    Active = true,
+                    RoleId = 1,
+                }
+            );
+        }
+        
         context.SaveChanges();
     }
 }

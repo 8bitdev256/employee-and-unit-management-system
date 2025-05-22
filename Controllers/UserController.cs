@@ -21,8 +21,9 @@ namespace employee_and_unit_management_system.Controllers
 
         // GET: User
         public async Task<IActionResult> Index()
-        {    
-            return View(await _context.User.ToListAsync());
+        {
+            var dataContext = _context.User.Include(u => u.Role);
+            return View(await dataContext.ToListAsync());
         }
 
         // GET: User/Details/5
@@ -34,6 +35,7 @@ namespace employee_and_unit_management_system.Controllers
             }
 
             var user = await _context.User
+                .Include(u => u.Role)
                 .FirstOrDefaultAsync(m => m.Id == id);
             if (user == null)
             {
@@ -46,6 +48,7 @@ namespace employee_and_unit_management_system.Controllers
         // GET: User/Create
         public IActionResult Create()
         {
+            ViewData["RoleId"] = new SelectList(_context.Role, "Id", "Id");
             return View();
         }
 
@@ -54,7 +57,7 @@ namespace employee_and_unit_management_system.Controllers
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create([Bind("Id,Login,Password,Status,Role")] User user)
+        public async Task<IActionResult> Create([Bind("Id,Login,Password,Active,RoleId")] User user)
         {
             if (ModelState.IsValid)
             {
@@ -62,6 +65,7 @@ namespace employee_and_unit_management_system.Controllers
                 await _context.SaveChangesAsync();
                 return RedirectToAction(nameof(Index));
             }
+            ViewData["RoleId"] = new SelectList(_context.Role, "Id", "Id", user.RoleId);
             return View(user);
         }
 
@@ -78,6 +82,7 @@ namespace employee_and_unit_management_system.Controllers
             {
                 return NotFound();
             }
+            ViewData["RoleId"] = new SelectList(_context.Role, "Id", "Id", user.RoleId);
             return View(user);
         }
 
@@ -86,7 +91,7 @@ namespace employee_and_unit_management_system.Controllers
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Edit(int id, [Bind("Id,Login,Password,Status,Role")] User user)
+        public async Task<IActionResult> Edit(int id, [Bind("Id,Login,Password,Active,RoleId")] User user)
         {
             if (id != user.Id)
             {
@@ -113,6 +118,7 @@ namespace employee_and_unit_management_system.Controllers
                 }
                 return RedirectToAction(nameof(Index));
             }
+            ViewData["RoleId"] = new SelectList(_context.Role, "Id", "Id", user.RoleId);
             return View(user);
         }
 
@@ -125,6 +131,7 @@ namespace employee_and_unit_management_system.Controllers
             }
 
             var user = await _context.User
+                .Include(u => u.Role)
                 .FirstOrDefaultAsync(m => m.Id == id);
             if (user == null)
             {

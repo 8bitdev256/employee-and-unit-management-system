@@ -43,6 +43,23 @@ namespace employee_and_unit_management_system.Migrations
                     b.ToTable("Collaborator");
                 });
 
+            modelBuilder.Entity("employee_and_unit_management_system.Models.Role", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("integer");
+
+                    NpgsqlPropertyBuilderExtensions.UseIdentityByDefaultColumn(b.Property<int>("Id"));
+
+                    b.Property<string>("Description")
+                        .IsRequired()
+                        .HasColumnType("text");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("Role");
+                });
+
             modelBuilder.Entity("employee_and_unit_management_system.Models.Unit", b =>
                 {
                     b.Property<int>("Id")
@@ -71,6 +88,9 @@ namespace employee_and_unit_management_system.Migrations
 
                     NpgsqlPropertyBuilderExtensions.UseIdentityByDefaultColumn(b.Property<int>("Id"));
 
+                    b.Property<bool>("Active")
+                        .HasColumnType("boolean");
+
                     b.Property<string>("Login")
                         .IsRequired()
                         .HasColumnType("text");
@@ -79,21 +99,41 @@ namespace employee_and_unit_management_system.Migrations
                         .IsRequired()
                         .HasColumnType("text");
 
-                    b.Property<bool>("Status")
-                        .HasColumnType("boolean");
+                    b.Property<int>("RoleId")
+                        .HasColumnType("integer");
 
                     b.HasKey("Id");
+
+                    b.HasIndex("RoleId");
 
                     b.ToTable("User");
                 });
 
             modelBuilder.Entity("employee_and_unit_management_system.Models.Collaborator", b =>
                 {
-                    b.HasOne("employee_and_unit_management_system.Models.Unit", null)
+                    b.HasOne("employee_and_unit_management_system.Models.Unit", "Unit")
                         .WithMany("Collaborators")
                         .HasForeignKey("UnitId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
+
+                    b.Navigation("Unit");
+                });
+
+            modelBuilder.Entity("employee_and_unit_management_system.Models.User", b =>
+                {
+                    b.HasOne("employee_and_unit_management_system.Models.Role", "Role")
+                        .WithMany("Users")
+                        .HasForeignKey("RoleId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("Role");
+                });
+
+            modelBuilder.Entity("employee_and_unit_management_system.Models.Role", b =>
+                {
+                    b.Navigation("Users");
                 });
 
             modelBuilder.Entity("employee_and_unit_management_system.Models.Unit", b =>

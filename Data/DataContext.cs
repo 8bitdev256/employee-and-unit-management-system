@@ -10,8 +10,9 @@ namespace employee_and_unit_management_system.Data
         {
         }
 
-        public DbSet<employee_and_unit_management_system.Models.User> User { get; set; } = default!;
-        public DbSet<employee_and_unit_management_system.Models.Unit> Unit { get; set; } = default!;
-        public DbSet<employee_and_unit_management_system.Models.Collaborator> Collaborator { get; set; } = default!;
+        public DbSet<Collaborator> Collaborator { get; set; } = default!;
+        public DbSet<Unit> Unit { get; set; } = default!;
+        public DbSet<User> User { get; set; } = default!;
+        public DbSet<Role> Role { get; set; } = default!;
     }
 }
