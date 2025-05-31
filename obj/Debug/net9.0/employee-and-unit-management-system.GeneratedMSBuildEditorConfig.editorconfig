@@ -17,105 +17,105 @@ build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = employee_and_unit_management_system
 build_property.RootNamespace = employee_and_unit_management_system
-build_property.ProjectDir = C:\Users\Erich\Desktop\repos\VS Code\employee-and-unit-management-system\
+build_property.ProjectDir = /home/erich/Downloads/repos/employee-and-unit-management-system/
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.RazorLangVersion = 9.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\Erich\Desktop\repos\VS Code\employee-and-unit-management-system
+build_property.MSBuildProjectDirectory = /home/erich/Downloads/repos/employee-and-unit-management-system
 build_property._RazorSourceGeneratorDebug = 
 build_property.EffectiveAnalysisLevelStyle = 9.0
 build_property.EnableCodeStyleSeverity = 
 
-[C:/Users/Erich/Desktop/repos/VS Code/employee-and-unit-management-system/Views/Collaborator/Create.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29sbGFib3JhdG9yXENyZWF0ZS5jc2h0bWw=
+[/home/erich/Downloads/repos/employee-and-unit-management-system/Views/Collaborator/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQ29sbGFib3JhdG9yL0NyZWF0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Erich/Desktop/repos/VS Code/employee-and-unit-management-system/Views/Collaborator/Delete.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29sbGFib3JhdG9yXERlbGV0ZS5jc2h0bWw=
+[/home/erich/Downloads/repos/employee-and-unit-management-system/Views/Collaborator/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQ29sbGFib3JhdG9yL0RlbGV0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Erich/Desktop/repos/VS Code/employee-and-unit-management-system/Views/Collaborator/Details.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29sbGFib3JhdG9yXERldGFpbHMuY3NodG1s
+[/home/erich/Downloads/repos/employee-and-unit-management-system/Views/Collaborator/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQ29sbGFib3JhdG9yL0RldGFpbHMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Erich/Desktop/repos/VS Code/employee-and-unit-management-system/Views/Collaborator/Edit.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29sbGFib3JhdG9yXEVkaXQuY3NodG1s
+[/home/erich/Downloads/repos/employee-and-unit-management-system/Views/Collaborator/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQ29sbGFib3JhdG9yL0VkaXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Erich/Desktop/repos/VS Code/employee-and-unit-management-system/Views/Collaborator/Index.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29sbGFib3JhdG9yXEluZGV4LmNzaHRtbA==
+[/home/erich/Downloads/repos/employee-and-unit-management-system/Views/Collaborator/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQ29sbGFib3JhdG9yL0luZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Erich/Desktop/repos/VS Code/employee-and-unit-management-system/Views/Home/Index.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+[/home/erich/Downloads/repos/employee-and-unit-management-system/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9JbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Erich/Desktop/repos/VS Code/employee-and-unit-management-system/Views/Home/Privacy.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+[/home/erich/Downloads/repos/employee-and-unit-management-system/Views/Home/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9Qcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Erich/Desktop/repos/VS Code/employee-and-unit-management-system/Views/Login/Authenticate.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTG9naW5cQXV0aGVudGljYXRlLmNzaHRtbA==
+[/home/erich/Downloads/repos/employee-and-unit-management-system/Views/Login/Authenticate.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvTG9naW4vQXV0aGVudGljYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Erich/Desktop/repos/VS Code/employee-and-unit-management-system/Views/Shared/Error.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+[/home/erich/Downloads/repos/employee-and-unit-management-system/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL0Vycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Erich/Desktop/repos/VS Code/employee-and-unit-management-system/Views/Shared/_ValidationScriptsPartial.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+[/home/erich/Downloads/repos/employee-and-unit-management-system/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL19WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Erich/Desktop/repos/VS Code/employee-and-unit-management-system/Views/Unit/Create.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVW5pdFxDcmVhdGUuY3NodG1s
+[/home/erich/Downloads/repos/employee-and-unit-management-system/Views/Unit/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvVW5pdC9DcmVhdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Erich/Desktop/repos/VS Code/employee-and-unit-management-system/Views/Unit/Delete.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVW5pdFxEZWxldGUuY3NodG1s
+[/home/erich/Downloads/repos/employee-and-unit-management-system/Views/Unit/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvVW5pdC9EZWxldGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Erich/Desktop/repos/VS Code/employee-and-unit-management-system/Views/Unit/Details.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVW5pdFxEZXRhaWxzLmNzaHRtbA==
+[/home/erich/Downloads/repos/employee-and-unit-management-system/Views/Unit/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvVW5pdC9EZXRhaWxzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Erich/Desktop/repos/VS Code/employee-and-unit-management-system/Views/Unit/Edit.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVW5pdFxFZGl0LmNzaHRtbA==
+[/home/erich/Downloads/repos/employee-and-unit-management-system/Views/Unit/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvVW5pdC9FZGl0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Erich/Desktop/repos/VS Code/employee-and-unit-management-system/Views/Unit/Index.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVW5pdFxJbmRleC5jc2h0bWw=
+[/home/erich/Downloads/repos/employee-and-unit-management-system/Views/Unit/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvVW5pdC9JbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Erich/Desktop/repos/VS Code/employee-and-unit-management-system/Views/User/Create.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlclxDcmVhdGUuY3NodG1s
+[/home/erich/Downloads/repos/employee-and-unit-management-system/Views/User/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvVXNlci9DcmVhdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Erich/Desktop/repos/VS Code/employee-and-unit-management-system/Views/User/Delete.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlclxEZWxldGUuY3NodG1s
+[/home/erich/Downloads/repos/employee-and-unit-management-system/Views/User/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvVXNlci9EZWxldGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Erich/Desktop/repos/VS Code/employee-and-unit-management-system/Views/User/Details.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlclxEZXRhaWxzLmNzaHRtbA==
+[/home/erich/Downloads/repos/employee-and-unit-management-system/Views/User/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvVXNlci9EZXRhaWxzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Erich/Desktop/repos/VS Code/employee-and-unit-management-system/Views/User/Edit.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlclxFZGl0LmNzaHRtbA==
+[/home/erich/Downloads/repos/employee-and-unit-management-system/Views/User/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvVXNlci9FZGl0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Erich/Desktop/repos/VS Code/employee-and-unit-management-system/Views/User/Index.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlclxJbmRleC5jc2h0bWw=
+[/home/erich/Downloads/repos/employee-and-unit-management-system/Views/User/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvVXNlci9JbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Erich/Desktop/repos/VS Code/employee-and-unit-management-system/Views/_ViewImports.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+[/home/erich/Downloads/repos/employee-and-unit-management-system/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Erich/Desktop/repos/VS Code/employee-and-unit-management-system/Views/_ViewStart.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+[/home/erich/Downloads/repos/employee-and-unit-management-system/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Erich/Desktop/repos/VS Code/employee-and-unit-management-system/Views/Shared/_Layout.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
-build_metadata.AdditionalFiles.CssScope = b-45ub218l8g
+[/home/erich/Downloads/repos/employee-and-unit-management-system/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL19MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-n0ot2xb8u1

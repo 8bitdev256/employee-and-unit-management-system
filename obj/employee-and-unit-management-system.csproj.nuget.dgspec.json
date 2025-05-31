@@ -1,31 +1,25 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Erich\\Desktop\\repos\\VS Code\\employee-and-unit-management-system\\employee-and-unit-management-system.csproj": {}
+    "/home/erich/Downloads/repos/employee-and-unit-management-system/employee-and-unit-management-system.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Erich\\Desktop\\repos\\VS Code\\employee-and-unit-management-system\\employee-and-unit-management-system.csproj": {
+    "/home/erich/Downloads/repos/employee-and-unit-management-system/employee-and-unit-management-system.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Erich\\Desktop\\repos\\VS Code\\employee-and-unit-management-system\\employee-and-unit-management-system.csproj",
+        "projectUniqueName": "/home/erich/Downloads/repos/employee-and-unit-management-system/employee-and-unit-management-system.csproj",
         "projectName": "employee-and-unit-management-system",
-        "projectPath": "C:\\Users\\Erich\\Desktop\\repos\\VS Code\\employee-and-unit-management-system\\employee-and-unit-management-system.csproj",
-        "packagesPath": "C:\\Users\\Erich\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Erich\\Desktop\\repos\\VS Code\\employee-and-unit-management-system\\obj\\",
+        "projectPath": "/home/erich/Downloads/repos/employee-and-unit-management-system/employee-and-unit-management-system.csproj",
+        "packagesPath": "/home/erich/.nuget/packages/",
+        "outputPath": "/home/erich/Downloads/repos/employee-and-unit-management-system/obj/",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\Erich\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "/home/erich/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net9.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -106,7 +100,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.300/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/9.0.300/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
