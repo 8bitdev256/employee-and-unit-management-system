@@ -37,6 +37,6 @@ public class LoginController : Controller
 
         user.Password = "";
 
-        return RedirectToAction("../Home/Index");
+        return RedirectToAction("Index", "Home", new { token = token });
     }
 }
